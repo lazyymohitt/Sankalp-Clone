@@ -4,9 +4,9 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <footer className="bg-black font-Gilreg text-gray-300 py-12 px-6 md:px-16">
+    <footer className="bg-black text-gray-300 py-12 px-6 md:px-16">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-    
+        
         <div>
           <h2 className="text-lg font-bold text-white mb-4 relative">
             ABOUT RESTAURANT
@@ -14,9 +14,9 @@ const Footer = () => {
             <span className="block w-6 h-[2px] bg-yellow-500"></span>
           </h2>
           <p className="text-sm leading-relaxed mb-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis provident commodi veritatis impedit aspernatur cumque minima voluptatibus iste quod alias.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia officiis hic maxime cupiditate corporis odit expedita eos! Sequi assumenda quis culpa. Numquam.
           </p>
-
+          
           <div className="flex space-x-4">
             <a
               href="#"
@@ -45,6 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
+      
         <div>
           <h2 className="text-lg font-bold text-white mb-4 relative">
             QUICK LINKS
@@ -59,6 +60,7 @@ const Footer = () => {
           </ul>
         </div>
 
+   
         <div>
           <h2 className="text-lg font-bold text-white mb-4 relative">
             HOURS
@@ -81,7 +83,6 @@ const Footer = () => {
           </ul>
         </div>
 
-      
         <div>
           <h2 className="text-lg font-bold text-white mb-4 relative">
             LOCATION
@@ -99,16 +100,16 @@ const Footer = () => {
           </p>
           <p className="text-sm">
             <strong>Email Address</strong>
-            <br /> info@async.mohitt@gmail.com
+            <br /> async.mohitt@gmail.com
           </p>
         </div>
       </div>
 
 
       <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
-        <p>Copyright ©2025 - Sankalp 2025 All Rights Reserved.</p>
+        <p>Copyright ©2025 - Mohit 2025 All Rights Reserved.</p>
         <p>
-          Design by <span className="text-white">Mohit Kumar</span>
+          Design by <span className="text-white">Dukami Digital</span>
         </p>
       </div>
     </footer>

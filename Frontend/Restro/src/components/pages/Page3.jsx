@@ -10,7 +10,7 @@ const Page3 = () => {
           alt=""
         />
         <div className="overlay top-0  flex justify-center items-center h-full absolute w-full bg-[#0000006b]">
-          <h1 className="text-white border px-60 py-40 md:px-40 md:py-60 lg:px-18 border-amber-100 font-bold font-GilSB text-4xl tracking-wider">
+          <h1 className="text-white border px-60 py-40 md:px-40 md:py-60   border-amber-100 font-bold font-GilSB text-4xl tracking-wider">
             INTERIOR
           </h1>
         </div>
@@ -22,7 +22,7 @@ const Page3 = () => {
           alt=""
         />
         <div className="overlay top-0  flex justify-center items-center h-full absolute w-full bg-[#0000006b]">
-          <h1 className="text-white border px-60 py-40 md:px-40 md:py-60 lg:px-18 border-amber-100 font-bold font-GilSB text-4xl tracking-wider">
+          <h1 className="text-white border px-60 py-40 md:px-40 md:py-60  border-amber-100 font-bold font-GilSB text-4xl tracking-wider">
             OUTSIDE
           </h1>
         </div>
@@ -34,7 +34,7 @@ const Page3 = () => {
           alt=""
         />
         <div className="overlay top-0  flex justify-center items-center h-full absolute w-full bg-[#0000006b]">
-          <h1 className="text-white border px-60 py-40 md:px-40 md:py-60 lg:px-25 border-amber-100 font-bold font-GilSB text-4xl tracking-wider">
+          <h1 className="text-white border px-60 py-40 md:px-40 md:py-60  border-amber-100 font-bold font-GilSB text-4xl tracking-wider">
             FOOD
           </h1>
         </div>

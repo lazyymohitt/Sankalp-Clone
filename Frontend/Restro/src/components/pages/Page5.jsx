@@ -1,35 +1,39 @@
 import React from "react";
 
-const Collage = () => {
+const Page3 = () => {
+  // Image paths from public folder
   const images = [
     "/Images/img1.jpg",
     "/Images/img2.jpg",
     "/Images/img3.jpg",
-    "/Images/img4.jpg",
-    "/Images/img5.jpg",
-    "/Images/img6.jpg",
+    "/Images/img4.jpeg",
+    "/Images/img5.jpeg",
+    "/Images/img6.webp",
     "/Images/img7.jpg",
     "/Images/img8.jpg",
+    "/Images/img9.webp",
+    "/Images/img10.jpg",
+    "/Images/img11.jpg",
+    "/Images/img12.jpg",
+    "/Images/img13.jpg",
+
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
-      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 max-w-7xl w-full">
+    <div className="w-full min-h-screen bg-gray-100 p-6">
+
+      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {images.map((src, index) => (
-          <div
+          <img
             key={index}
-            className="overflow-hidden rounded-xl shadow-lg break-inside-avoid group"
-          >
-            <img
-              src={src}
-              alt={`Collage ${index}`}
-              className="w-full object-cover rounded-xl transform group-hover:scale-110 transition duration-500 ease-in-out"
-            />
-          </div>
+            src={src}
+            alt={`Image ${index + 1}`}
+            className="w-full mb-4 rounded-xl shadow-md hover:scale-[1.02] transition-transform duration-300"
+          />
         ))}
       </div>
     </div>
   );
 };
 
-export default Collage;
+export default Page3;

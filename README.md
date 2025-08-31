@@ -1,74 +1,57 @@
-# Sankalp Restaurant Clone
+# 🍴 Sankalp Restaurant Clone
 
-![Restaurant Logo or Hero Image](./path-to-your-screenshot-1.png)
-
-A modern, responsive single-page restaurant website built with **React** and **Tailwind CSS**, deployed on **Vercel**.  
-Live demo: [sankalp-clone-ujqr.vercel.app](https://sankalp-clone-ujqr.vercel.app)
+A modern, responsive restaurant website built with **React + Tailwind CSS**, inspired by the Sankalp Restaurant brand.  
+Deployed live on **Vercel** → [sankalp-clone-ujqr.vercel.app](https://sankalp-clone-ujqr.vercel.app)
 
 ---
 
-##  Table of Contents
+## 🌟 Preview
 
-- [About](#about)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Screenshots](#screenshots)  
-- [Getting Started](#getting-started)  
-- [Usage](#usage)  
-- [Folder Structure](#folder-structure)  
-- [Contributing](#contributing)  
-- [License](#license)
+### Desktop View
+<img width="1909" height="897" alt="Screenshot 2025-08-31 145213" src="https://github.com/user-attachments/assets/75d7eeb3-beed-471a-b9da-6fc63875bcab" />
 
----
 
-##  About
 
-A visually rich, restaurant-style website showcasing sections like Menu, About Us, Contact Us, and Footer—styled with elegant typography, warm color accents, and a modern UI.
+### Mobile View
+<img width="445" height="759" alt="Screenshot 2025-08-31 145330" src="https://github.com/user-attachments/assets/4e09bae6-db8c-4462-ba1b-6618359bfdb9" />
+
 
 ---
 
-##  Features
 
-- Fully responsive layout for seamless mobile, tablet, and desktop viewing  
-- Clean, accessible design with Tailwind CSS  
-- Includes core sections: About, Quick Links, Operating Hours, Contact Form, and Location details  
-- Easy to deploy on **Vercel**
+## ✨ Features
 
----
-
-##  Tech Stack
-
-| Technology       | Description                             |
-|------------------|-----------------------------------------|
-| React            | Component-based UI                      |
-| Tailwind CSS     | Utility-first styling framework         |
-| React Icons      | Icon integration (e.g. social links)     |
-| Vercel           | Effortless deployment                   |
+- 🖥️ **Fully Responsive** – adapts beautifully to mobile, tablet, and desktop  
+- 🎨 **Modern UI/UX** – warm colors, elegant typography, and smooth hover effects  
+- 🗂️ **Core Sections** – Home, About Us, Menu, Contact Form, Hours, Location, Footer  
+- 📍 **Restaurant Vibes** – themed color palette with social icons and opening hours  
+- ⚡ **Fast Deployment** – deployed seamlessly on Vercel  
 
 ---
 
-##  Screenshots
+## 🛠️ Tech Stack
 
-*(Add your own screenshots below after capturing them: homepage, menu section, contact form, responsive views, footer, etc.)*
-
-| View         | Screenshot                          |
-|--------------|-------------------------------------|
-| Desktop view | ![Desktop Screenshot](./screenshot-desktop.png) |
-| Mobile view  | ![Mobile Screenshot](./screenshot-mobile.png)   |
+| Technology       | Purpose                             |
+|------------------|-------------------------------------|
+| React            | Component-based UI                  |
+| Tailwind CSS     | Styling with utility-first classes  |
+| React Icons      | Icons for social media & UI         |
+| Vercel           | Hosting & deployment                |
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+Follow these steps to run the project locally.
 
-- Node.js (v14 or newer)
+### ✅ Prerequisites
+- Node.js (>= 14)
 - npm or Yarn
 
-### Installation & Running Locally
+### ⚡ Installation
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/your-username/sankalp-clone.git
 cd sankalp-clone
 
@@ -77,9 +60,7 @@ npm install
 # or
 yarn install
 
-# Start dev server
+# Start the development server
 npm run dev
 # or
 yarn dev
-
-# Visit: http://localhost:3000 (or Vite default port)

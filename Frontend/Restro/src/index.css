@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "gilroy-md";
+  src: url(/fonts/Gilroy-MediumItalic.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroyregular";
+  src: url(/fonts/Gilroy-Regular.ttfx);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroysemibold";
+  src: url(/fonts/Gilroy-SemiBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  --font-Italic: "gilroy-md", sans-serif;
+  --font-Gilreg: "gilroyregular", sans-serif;
+  --font-GilSB: "gilroysemibold", sans-serif;
+}
+:body{
+  font-family:"gilroyregular";
+background-color: rgba(89, 85, 85, 0.712);
+}
